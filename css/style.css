@@ -775,3 +775,100 @@ transition: transform 0.3s ease;
 .portfolio-item:hover {
 transform: scale(1.02);
 }
+
+
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: flex-start;
+    display: none;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .hire-button {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-active {
+    display: flex;
+  }
+
+  .home-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-text h1 {
+    font-size: 45px;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .home-image img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-circle {
+    width: 250px;
+    height: 250px;
+  }
+
+  .services {
+    gap: 20px;
+  }
+
+  .row,
+  .bottom-row {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-item {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .section-title {
+    font-size: 50px;
+  }
+}
