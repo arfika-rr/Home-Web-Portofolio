@@ -169,6 +169,7 @@ nav {
   font-size: 70px;
   font-weight: 800;
   margin-bottom: 30px;
+  margin-top: -50px;
   color: var(--color-primary);
 }
 
@@ -178,8 +179,8 @@ nav {
 
 .social-icons {
   display: flex;
-  margin-top: -35px;
-  margin-bottom: 20px;
+  margin-top: -25px;
+  margin-bottom: 10px;
 }
 
 .social-icon {
