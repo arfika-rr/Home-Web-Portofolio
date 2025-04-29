@@ -9,7 +9,6 @@
 
 
 
-
 /* Reset & Base Styles */
 * {
   margin: 0;
@@ -417,20 +416,20 @@ nav {
     margin-bottom: 40px;
 }
 
-.filter-btn {
-    padding: 8px 20px;
-    border: 2px solid var(--color-black);
-    border-radius: 25px;
-    background: none;
-    cursor: pointer;
-    font-weight: 600;
-    transition: all 0.3s ease;
+.filter-btn { 
+  padding: 8px 20px;
+  border: 2px solid var(--color-black);
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
+
 
 .filter-btn:hover,
 .filter-btn.active {
-    background-color: var(--color-black);
-    color: var(--color-white);
+    background-color: #CBC9C1;
+    color: #000000;
 }
 
 .portfolio-grid {
@@ -509,8 +508,8 @@ nav {
 
 .blog-filter-btn:hover,
 .blog-filter-btn.active {
-    background-color: var(--color-black);
-    color: var(--color-white);
+  background-color: #CBC9C1;
+  color: #000000;
 }
 
 .blog-grid {
