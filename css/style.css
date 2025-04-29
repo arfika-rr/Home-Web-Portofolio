@@ -207,6 +207,7 @@ nav {
 
 .cv-button:hover {
   background-color: var(--color-black);
+  color: var(--color-white); 
 }
 
 .home-image img {
