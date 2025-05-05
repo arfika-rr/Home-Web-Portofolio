@@ -1,0 +1,27 @@
+digraph pharmacy_flow {
+	rankdir=TB
+	A [label=Start shape=oval]
+	B [label="Masuk/Daftar" fillcolor="#a3cfbb" style=filled]
+	C [label="Cari Obat" fillcolor="#b8d0e6" style=filled]
+	D [label="Pilih Apotek Terdekat" fillcolor="#b8d0e6" style=filled]
+	E [label="Masukkan ke Keranjang" fillcolor="#b8d0e6" style=filled]
+	F [label="Pilih Metode Pengambilan" fillcolor="#f9d77e" shape=diamond style=filled]
+	G [label="Pick Up" fillcolor="#f7c4c4" style=filled]
+	H [label=Delivery fillcolor="#f7c4c4" style=filled]
+	I [label="Pilih Metode Pembayaran - Mandiri" fillcolor="#d5c5e5" style=filled]
+	J [label="Menunggu Pembayaran" fillcolor="#ffd3b4" style=filled]
+	K [label="Selesai Pembayaran" fillcolor="#c9e2ae" style=filled]
+	L [label=End shape=oval]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G [label="Pick Up"]
+	F -> H [label=Delivery]
+	G -> I
+	H -> I
+	I -> J
+	J -> K
+	K -> L
+}

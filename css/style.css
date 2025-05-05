@@ -206,7 +206,7 @@ nav {
 }
 
 .cv-button:hover {
-  background-color: var(--color-black);
+  background-color: var(--color-primary);
   color: var(--color-white); 
 }
 
@@ -602,6 +602,7 @@ nav {
   flex-direction: column;
   gap: 25px;
   margin-top: 50px;
+  align-items: center;
 }
 
 .contact-item {
